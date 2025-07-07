@@ -25,7 +25,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
-  String apiKey = "f698e0e393067c15dbf3a620ecf44a14";
+  String apiKey = "YOUR_API_KEY";
   String city = "Delhi";
   String currentDate = DateFormat('d MMMM yyyy').format(DateTime.now());
   String temperature = 'Loading...';
