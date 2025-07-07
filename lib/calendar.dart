@@ -34,7 +34,7 @@ class _CropAdvisorState extends State<CropAdvisor>
   }
 
   Future<void> retrieveWeatherData() async {
-    String apiKey = "f698e0e393067c15dbf3a620ecf44a14";
+    String apiKey = "YOUR_API_KEY";
     String apiUrl =
         "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$apiKey&units=metric";
 
